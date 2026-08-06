@@ -20,3 +20,12 @@ Rules I'm holding myself to: training mode — AI may explain, AI never writes t
 **Pattern learned:** Hash map complement lookup — instead of checking every pair (O(n²)), store previously seen values in an `unordered_map` and look up the required complement (`target - current`) in O(1) average time while traversing the array once, reducing the solution to O(n).
 
 **Thoughts:** I had seen this problem before, but this time the focus wasn't just getting Accepted—it was understanding *why* the one-pass hash map works and recognizing it as a reusable pattern. One more pattern added to the toolbox.
+
+### R1D3 — August 6, 2026
+
+**Today's Progress:** Solved LeetCode [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) in C++.
+
+**Pattern learned:** Lexicographic sorting. After sorting the array of strings, the longest common prefix of the entire array must be the common prefix between the first and last strings. Comparing only these two strings reduces the problem to a single linear scan after sorting.
+
+**Thoughts:** It was satisfying to realize that the solution doesn't require comparing every string with every other string. Once I understood why the first and last strings after sorting capture the maximum possible difference, the approach felt surprisingly elegant.
+
