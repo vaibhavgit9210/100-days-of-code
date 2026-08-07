@@ -29,3 +29,10 @@ Rules I'm holding myself to: training mode — AI may explain, AI never writes t
 
 **Thoughts:** It was satisfying to realize that the solution doesn't require comparing every string with every other string. Once I understood why the first and last strings after sorting capture the maximum possible difference, the approach felt surprisingly elegant.
 
+### R1D4 — August 7, 2026
+
+**Today's Progress:** Solved a Trie-based problem. I had to find the Longest Common Prefix between 2 strings, given n strings. (Not LeetCode 14.)
+
+**Pattern learned:** I first built the Trie using a 2D array, which led to memory-exceeded problems. Then I learned on the internet (ChatGPT, actually) that using pointers and classes allows us to allocate memory dynamically, instead of unnecessarily allocating space for the entire 2D array upfront.
+
+**Thoughts:** When it comes to pointers, it's always interesting, but it takes patience to learn.
