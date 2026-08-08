@@ -2,26 +2,26 @@
 
 The log of my #100DaysOfCode challenge. Started on August 4, Tuesday, 2026.
 
-Rules I'm holding myself to: training mode — AI may explain, AI never writes the code. NeetCode-150 in roadmap order, 1–2 problems a day, pattern logged here daily.
+Rules I'm holding myself to: training mode  AI may explain, AI never writes the code. NeetCode-150 in roadmap order, 1–2 problems a day, pattern logged here daily.
 
 ## Log
 
-### R1D1 — August 4, 2026
+### R1D1 August 4, 2026
 **Today's Progress:** Solved LeetCode [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) and [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) in C++.
 
-**Pattern learned:** Hashing with `unordered_map` / `unordered_set` — trade O(n) space for O(1) average lookups, turning "have I seen this before?" (217) and "do these frequency counts match?" (242) from O(n²)/sorting problems into single-pass O(n).
+**Pattern learned:** Hashing with `unordered_map` / `unordered_set`  trade O(n) space for O(1) average lookups, turning "have I seen this before?" (217) and "do these frequency counts match?" (242) from O(n²)/sorting problems into single-pass O(n).
 
-**Thoughts:** Here I go again, for the nth time 🤡 — but this round has a system behind it (external graders, one block at a time) instead of vibes.
+**Thoughts:** Here I go again, for the nth time 🤡  but this round has a system behind it (external graders, one block at a time) instead of vibes.
 
-### R1D2 — August 5, 2026
+### R1D2 August 5, 2026
 
 **Today's Progress:** Solved LeetCode [1. Two Sum](https://leetcode.com/problems/two-sum/) in C++.
 
-**Pattern learned:** Hash map complement lookup — instead of checking every pair (O(n²)), store previously seen values in an `unordered_map` and look up the required complement (`target - current`) in O(1) average time while traversing the array once, reducing the solution to O(n).
+**Pattern learned:** Hash map complement lookup  instead of checking every pair (O(n²)), store previously seen values in an `unordered_map` and look up the required complement (`target - current`) in O(1) average time while traversing the array once, reducing the solution to O(n).
 
-**Thoughts:** I had seen this problem before, but this time the focus wasn't just getting Accepted—it was understanding *why* the one-pass hash map works and recognizing it as a reusable pattern. One more pattern added to the toolbox.
+**Thoughts:** I had seen this problem before, but this time the focus wasn't just getting Acceptedit was understanding *why* the one-pass hash map works and recognizing it as a reusable pattern. One more pattern added to the toolbox.
 
-### R1D3 — August 6, 2026
+### R1D3 August 6, 2026
 
 **Today's Progress:** Solved LeetCode [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) in C++.
 
@@ -29,10 +29,20 @@ Rules I'm holding myself to: training mode — AI may explain, AI never writes t
 
 **Thoughts:** It was satisfying to realize that the solution doesn't require comparing every string with every other string. Once I understood why the first and last strings after sorting capture the maximum possible difference, the approach felt surprisingly elegant.
 
-### R1D4 — August 7, 2026
+### R1D4 August 7, 2026
 
 **Today's Progress:** Solved a Trie-based problem. I had to find the Longest Common Prefix between 2 strings, given n strings. (Not LeetCode 14.)
 
 **Pattern learned:** I first built the Trie using a 2D array, which led to memory-exceeded problems. Then I learned on the internet (ChatGPT, actually) that using pointers and classes allows us to allocate memory dynamically, instead of unnecessarily allocating space for the entire 2D array upfront.
 
 **Thoughts:** When it comes to pointers, it's always interesting, but it takes patience to learn.
+
+### R1D5 August 8, 2026
+
+**Today's Progress:** Solved LeetCode [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) and [211. Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) in C++.
+
+I was supposed to work on something related to LangGraph today, but didn't get to it. LeetCode was the backup so I could still code something and stay true to the #100DaysOfCode challenge.
+
+**Pattern learned:** Wildcard search in a Trie. When `.` is encountered, DFS and backtracking explores the possible child nodes while continuing normally for regular characters.
+
+**Thoughts:** The wildcard search was the interesting part today. It was a good exercise in combining Trie traversal with DFS and backtracking.
