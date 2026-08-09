@@ -46,3 +46,11 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 **Pattern learned:** Wildcard search in a Trie. When `.` is encountered, DFS and backtracking explores the possible child nodes while continuing normally for regular characters.
 
 **Thoughts:** The wildcard search was the interesting part today. It was a good exercise in combining Trie traversal with DFS and backtracking.
+
+### R1D6 — August 9, 2026
+
+**Today's Progress:** Tried solving LeetCode [212. Word Search II](https://leetcode.com/problems/word-search-ii/) on my own, but couldn't complete it.
+
+**Pattern learned:** Trie combined with backtracking. I'm still working on understanding how to implement the Trie traversal and backtracking together for this problem.
+
+**Thoughts:** This one is taking more time to understand, especially how the Trie and backtracking work together. I'll continue working on it.
