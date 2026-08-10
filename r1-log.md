@@ -54,3 +54,11 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 **Pattern learned:** Trie combined with backtracking. I'm still working on understanding how to implement the Trie traversal and backtracking together for this problem.
 
 **Thoughts:** This one is taking more time to understand, especially how the Trie and backtracking work together. I'll continue working on it.
+
+### R1D7 — August 10, 2026
+
+**Today's Progress:** Solved LeetCode [212. Word Search II](https://leetcode.com/problems/word-search-ii/) on my own.
+
+**Pattern learned:** Trie combined with DFS & backtracking. Also, I need to learn the differnece between '*' & '&' when creating and calling functions, as well as when declaring variables.
+
+**Thoughts:** A lot of errors were found while I tried to compile the code that I wrote. 
