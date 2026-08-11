@@ -62,3 +62,11 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 **Pattern learned:** Trie combined with DFS & backtracking. Also, I need to learn the differnece between '*' & '&' when creating and calling functions, as well as when declaring variables.
 
 **Thoughts:** A lot of errors were found while I tried to compile the code that I wrote. 
+
+### R1D8 — August 11, 2026
+
+**Today's Progress:** I didn't solve any problems today. Instead, I went thorough a few mock interviews for AI Engineer role.
+
+**Pattern learned:** Embeddings, Retrieval Augmented Generation (RAG), NLP (Natural Language Processing)
+
+**Thoughts:** I plan to do better tomorrow.
