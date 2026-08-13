@@ -76,3 +76,11 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 **Today's Progress:** No coding progress today.
 
 **Thoughts:** Back tomorrow.
+
+### R1D10 — August 13, 2026
+
+**Today's Progress:** Solved a Trie based problem in C++. The solution inserts all words into a Trie, reverses each word, and searches for its reverse to count matching pairs.
+
+**Pattern learned:** Instead of comparing every pair of strings, I used a Trie for efficient lookups after reversing each word. This reinforced using Trie as a fast search structure for string transformations.
+
+**Thoughts:** Good practice combining string manipulation with Trie based lookups.
