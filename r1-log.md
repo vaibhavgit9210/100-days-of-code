@@ -95,3 +95,10 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 
 **Today's Progress:** No coding progress today.
 
+### R1D13 August 16, 2026
+
+**Today's Progress:** Solved LeetCode 125: Valid Palindrome in C++.
+
+**Pattern learned:** Two pointers. First filtered the string to keep only alphanumeric characters and converted them to lowercase. Then used two pointers from both ends to check whether the string is a palindrome.
+
+**Thoughts:** A simple problem, but good practice for combining string manipulation with the two pointer pattern.
