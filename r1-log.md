@@ -102,3 +102,17 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 **Pattern learned:** Two pointers. First filtered the string to keep only alphanumeric characters and converted them to lowercase. Then used two pointers from both ends to check whether the string is a palindrome.
 
 **Thoughts:** A simple problem, but good practice for combining string manipulation with the two pointer pattern.
+
+### R1D14 — August 17, 2026
+
+**Today's Progress:** No coding progress today.
+
+### R1D15 — August 18, 2026
+
+**Today's Progress:** No coding progress today.
+
+### R1D16 — August 19, 2026
+
+**Today's Progress:** No coding progress today.
+
+**Thoughts:** Starting again tomorrow.
