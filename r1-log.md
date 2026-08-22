@@ -116,3 +116,17 @@ I was supposed to work on something related to LangGraph today, but didn't get t
 **Today's Progress:** No coding progress today.
 
 **Thoughts:** Starting again tomorrow.
+
+### R1D17 — August 20, 2026
+
+**Today's Progress:** No coding progress today.
+
+### R1D18 — August 21, 2026
+
+**Today's Progress:** No coding progress today.
+
+### R1D19 — August 22, 2026
+
+**Today's Progress:** No coding progress today.
+
+**Thoughts:** Picking it back up tomorrow.
